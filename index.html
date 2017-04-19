@@ -145,32 +145,32 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 </p>
 
 
-<div aria-describedby="exp1">
+<div>
 	<fieldset>
-		<legend class="h4">
-			1. What does "NOC" stand for?
+		<legend class="h4" aria-describedby="exp1">
+			1. What does "NOC" stand for? (aria-describedby on legend)
 		</legend>
 		<div class="radio">
-			<label for="r11">
-				<input type="radio" id="r11" name="Q1" value="1" />
+			<label for="r811">
+				<input type="radio" id="r811" value="1" />
 				National Occupational Code
 			</label>
 		</div>
 		<div class="radio">
-			<label for="r21">
-				<input type="radio" id="r21" name="Q1" value="2" />
+			<label for="r821">
+				<input type="radio" id="r821" value="2" />
 				National Occupations of Canada
 			</label>
 		</div>
 		<div class="radio">
-			<label for="r31">
-				<input type="radio" id="r31" name="Q1" value="3" checked="checked" />
+			<label for="r831">
+				<input type="radio" id="r831" value="3" checked="checked" />
 				National Occupational Classification
 			</label>
 		</div>
 		<div class="radio">
-			<label for="r41">
-				<input type="radio" id="r41" name="Q1" value="4" />
+			<label for="r841">
+				<input type="radio" id="r841" value="4" />
 				National Occupational Clarification
 			</label>
 		</div>
@@ -183,37 +183,73 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 </section>
 
 
-
-<div aria-describedby="exp2">
-	<fieldset>
-		<legend class="h4">
-			1. What does "NOC" stand for? <a href="#centred-popup-modal" aria-controls="centred-popup-modal" class="wb-lbx lbx-modal" role="button">Explanation<span class="glyphicon glyphicon-question-sign"></span></a>
-		</legend>
+<div>
+	<fieldset aria-describedby="exp4">
+		<legend class="h4">1. What does "NOC" stand for? (aria-describedby on fieldset)</legend>
 		<div class="radio">
-			<label for="r211">
-				<input type="radio" id="r211" name="Q1" value="1" />
+			<label for="r11">
+				<input type="radio" id="r11" value="1" />
 				National Occupational Code
 			</label>
 		</div>
 		<div class="radio">
 			<label for="r21">
-				<input type="radio" id="r21" name="Q1" value="2" />
+				<input type="radio" id="r21" value="2" />
 				National Occupations of Canada
 			</label>
 		</div>
 		<div class="radio">
 			<label for="r31">
-				<input type="radio" id="r31" name="Q1" value="3" checked="checked" />
+				<input type="radio" id="r31" value="3" checked="checked" />
 				National Occupational Classification
 			</label>
 		</div>
 		<div class="radio">
 			<label for="r41">
-				<input type="radio" id="r41" name="Q1" value="4" />
+				<input type="radio" id="r41" value="4" />
 				National Occupational Clarification
 			</label>
 		</div>
 	</fieldset>
+</div>
+
+<section>
+	<h2 id="exp4" class="h5">Explanation</h2>
+	<p>The NOC is a way of "classifying" occupations according to skill level and skill type. The correct answer is National Occupational Classification.</p>
+</section>
+
+
+<div>
+	<fieldset>
+		<legend class="h4">
+			1. What does "NOC" stand for? (using a link to a modal)
+		</legend>
+		<div class="radio">
+			<label for="r211">
+				<input type="radio" id="r211" value="1" />
+				National Occupational Code
+			</label>
+		</div>
+		<div class="radio">
+			<label for="r221">
+				<input type="radio" id="r221" value="2" />
+				National Occupations of Canada
+			</label>
+		</div>
+		<div class="radio">
+			<label for="r231">
+				<input type="radio" id="r231" value="3" checked="checked" />
+				National Occupational Classification
+			</label>
+		</div>
+		<div class="radio">
+			<label for="r241">
+				<input type="radio" id="r241" value="4" />
+				National Occupational Clarification
+			</label>
+		</div>
+	</fieldset>
+	<p><a href="#centred-popup-modal" aria-controls="centred-popup-modal" class="wb-lbx lbx-modal" role="button">Explanation<span class="glyphicon glyphicon-question-sign"></span></a></p>
 </div>
 
 <section id="centred-popup-modal" class="mfp-hide modal-dialog modal-content overlay-def">
@@ -228,81 +264,44 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 
 
 
-<div aria-describedby="exp3">
+<div>
 	<fieldset>
 		<legend class="h4">
-			1. What does "NOC" stand for?
+			1. What does "NOC" stand for? (using tabindex=0)
 		</legend>
 		<div class="radio">
-			<label for="r11">
-				<input type="radio" id="r11" name="Q1" value="1" />
+			<label for="r311">
+				<input type="radio" id="r311" value="1" />
 				National Occupational Code
 			</label>
 		</div>
 		<div class="radio">
-			<label for="r21">
-				<input type="radio" id="r21" name="Q1" value="2" />
+			<label for="r321">
+				<input type="radio" id="r321" value="2" />
 				National Occupations of Canada
 			</label>
 		</div>
 		<div class="radio">
-			<label for="r31">
-				<input type="radio" id="r31" name="Q1" value="3" checked="checked" />
+			<label for="r331">
+				<input type="radio" id="r331" value="3" checked="checked" />
 				National Occupational Classification
 			</label>
 		</div>
 		<div class="radio">
-			<label for="r41">
-				<input type="radio" id="r41" name="Q1" value="4" />
+			<label for="r341">
+				<input type="radio" id="r341" value="4" />
 				National Occupational Clarification
 			</label>
 		</div>
 	</fieldset>
 </div>
 
-<section>
+<section tabindex="0">
 	<h2 id="exp3" class="h5">Explanation</h2>
 	<p>The NOC is a way of "classifying" occupations according to skill level and skill type. The correct answer is National Occupational Classification.</p>
 </section>
 
 
-
-<div aria-describedby="exp4">
-	<fieldset>
-		<legend class="h4">
-			1. What does "NOC" stand for?
-		</legend>
-		<div class="radio">
-			<label for="r11">
-				<input type="radio" id="r11" name="Q1" value="1" />
-				National Occupational Code
-			</label>
-		</div>
-		<div class="radio">
-			<label for="r21">
-				<input type="radio" id="r21" name="Q1" value="2" />
-				National Occupations of Canada
-			</label>
-		</div>
-		<div class="radio">
-			<label for="r31">
-				<input type="radio" id="r31" name="Q1" value="3" checked="checked" />
-				National Occupational Classification
-			</label>
-		</div>
-		<div class="radio">
-			<label for="r41">
-				<input type="radio" id="r41" name="Q1" value="4" />
-				National Occupational Clarification
-			</label>
-		</div>
-	</fieldset>
-</div>
-
-<section>
-	<h2 id="exp4" class="h5">Explanation</h2>
-	<p>The NOC is a way of "classifying" occupations according to skill level and skill type. The correct answer is National Occupational Classification.</p>
-</section>
 
 
 
